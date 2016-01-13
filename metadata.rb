@@ -18,4 +18,5 @@ end
 
 depends 'yum', '~> 3.0'
 
+# must be on cookbook path if zookeeper_exhibitor_discovery = true
 suggests 'exhibitor', '0.4.0'
